@@ -8,8 +8,6 @@ const Alert = ({ alerts }) => alerts && alerts.map(alert => (
   </div>
 ))
 
-console.log("test")
-
 Alert.proptypes = {
   alerts: PropTypes.array.isRequired
 }
